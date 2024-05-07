@@ -1,0 +1,10 @@
+#Jogo de Adivinhação
+print ("Bem-vindo ao Jogo de Adivinhação")
+print ("Tente adivinhar um número de 1 a 10")
+
+if (numero_secreto>7):
+  print ("O número é menor, tente novamente!")
+elif (numero_secreto == 7):
+  print ("Parabéns!!! Voce acertou!!!")
+else:
+  print ("O número secreto é maior. Tente novamente")
